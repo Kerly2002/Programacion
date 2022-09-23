@@ -3,19 +3,15 @@
 using namespace std;
 int main()
 {
-	float a,b;
-	cout<<"ingrese a b:"; cin>>a>>b;
-	if(a>b)
+	float KJCP_a,KJCP_b;
+	cout<<"ingrese KJCP_a KJCP_b:"; cin>>KJCP_a>>KJCP_b;
+	if(KJCP_a>KJCP_b)
 	{
-	  cout<<a<<" es mayor a "<<b<<endl;
+	  cout<<KJCP_a<<" es mayor a "<<KJCP_b<<endl;
 
 
 	}else{
 
-	  cout<<b<<" es mayor a "<<a<<endl;
-
-
+	  cout<<KJCP_b<<" es mayor a "<<KJCP_a<<endl;
 	}
-
-	return 0;
 }
